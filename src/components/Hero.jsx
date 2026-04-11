@@ -61,6 +61,7 @@ export default function Hero() {
         position: 'relative', zIndex: 2,
         height: '100%', display: 'flex', alignItems: 'center',
         justifyContent: 'space-between', gap: 40,
+        paddingTop: 72,
       }}>
         <div style={{ maxWidth: 600, color: '#fff', flex: 1 }}>
           {/* Rating badge */}
